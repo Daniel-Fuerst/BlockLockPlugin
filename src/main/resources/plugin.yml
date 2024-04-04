@@ -1,0 +1,4 @@
+name: BlockBanner
+version: '${project.version}'
+main: at.shaizku.blockbanner.BlockBanner
+api-version: '1.20'
