@@ -21,11 +21,9 @@ Ensure you're holding the item you wish to interact with. Then, simply enter one
 
 **---- Configuration ----**
 
-Bool Configs can have the value true/false
-
-String Configs can have any string as value
-
-Int Configs can have any number (up to 32-Bit int limit) as value
+    Bool Configs can have the value true/false
+    String Configs can have any string as value
+    Int Configs can have any number (up to 32-Bit int limit) as value
 
   Bool Configs
       - ALLOW-PLACE (Disallow Block placement)
