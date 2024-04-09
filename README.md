@@ -10,6 +10,10 @@ Since the plugin is in a rather early stage, I have following goals in mind:
 
 I hope this resource helps you, or you have fun with it. 
 
+**Notes**
+
+Please do not notice the shear amount of swear words in the code
+
 **Docs**
 
 **---- Main Functionality ----**

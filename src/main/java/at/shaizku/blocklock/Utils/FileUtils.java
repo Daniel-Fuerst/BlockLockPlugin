@@ -17,7 +17,7 @@ public class FileUtils {
 
             Bukkit.getLogger().info("|-> Text appended to the file successfully.");
         } catch (IOException e) {
-            Bukkit.getLogger().info("|-> An error occurred while appending to the file: " + e.getMessage());
+            Bukkit.getLogger().info("!-> An error occurred while appending to the file: " + e.getMessage());
         }
     }
 
@@ -32,7 +32,7 @@ public class FileUtils {
 
             Bukkit.getLogger().info("|-> Text appended to the file successfully.");
         } catch (IOException e) {
-            Bukkit.getLogger().info("|-> An error occurred while appending to the file: " + e.getMessage());
+            Bukkit.getLogger().info("!-> An error occurred while appending to the file: " + e.getMessage());
         }
     }
 

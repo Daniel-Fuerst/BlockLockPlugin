@@ -67,7 +67,7 @@ public final class BlockLock extends JavaPlugin {
         pluginmsg("X---- Registering Commands -----");
         registerCommandForClass("disableblock", new BanBlockCommand(this));
         registerCommandForClass("enableblock", new EnableBlockCommand(this));
-
+        pluginmsg("|");
         pluginmsg("X---- Registering Listeners -----");
         pluginmsg("I-> Registering BlockPlaceListener");
         getServer().getPluginManager().registerEvents(new BlockPlaceListener(this), this);
