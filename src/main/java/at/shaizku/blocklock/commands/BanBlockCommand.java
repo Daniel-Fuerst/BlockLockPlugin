@@ -35,6 +35,9 @@ public class BanBlockCommand implements CommandExecutor {
 
                 if (itemInHand.getType().isBlock()) {
 
+                    // For this entire section, we could use a Constant Prefix defined in the 'Constants' class,
+                    // but since we're switching to customizeable messages this would just be a huge pain in
+                    // the ass for nothing
                     if (!FileUtils.checkBannedBlocksFileForText(String.valueOf(itemInHand.getType()))) {
 
                         player.sendMessage(Constants.prefix + "Block '" + ChatColor.BLUE + itemInHand.getType() + ChatColor.GRAY +

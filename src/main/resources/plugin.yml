@@ -1,4 +1,13 @@
-name: BlockBanner
+name: BlockLock
 version: '${project.version}'
-main: at.shaizku.blockbanner.BlockBanner
+main: at.shaizku.blocklock.BlockLock
+authors:
+  - shaizku
 api-version: '1.20'
+commands:
+  disableblock:
+    description: Bans a Block from being placed/broken on the server
+    usage: /<command>
+  enableblock:
+    description: Enables a Block from being placed/broken on the server
+    usage: /<command>

@@ -49,6 +49,7 @@ public class InitializeSaveFiles {
     }
 
     public static void initConfigFileContent() {
+        //look away ;)
         if (!FileUtils.checkConfigFileForText("ALLOW-PLACE")) {
             FileUtils.appendToConfigYML("ALLOW-PLACE: false");
         }

@@ -5,6 +5,7 @@ import org.bukkit.Bukkit;
 import java.io.*;
 public class FileUtils {
 
+    //This class is fucking shitty managed, just don't look :)
     public static void appendToBlockBannerYML(String blockTypeToAppend) {
         String filePath = "plugins/BlockLock/bannedblocks.yml";
         try {

@@ -5,11 +5,11 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>at.shaizku</groupId>
-  <artifactId>BlockBanner</artifactId>
-  <version>1.0</version>
+  <artifactId>BlockLock</artifactId>
+  <version>1.4</version>
   <packaging>jar</packaging>
 
-  <name>BlockBanner</name>
+  <name>BlockLock</name>
 
   <properties>
     <java.version>1.8</java.version>
